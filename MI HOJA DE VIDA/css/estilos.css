@@ -21,8 +21,9 @@ nav{
 nav a{
     color: aliceblue; /* color de la fuente */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de fuente */
-    font-weight: bold;
+    font-weight: bold; /* grosor de la fuente */
     text-decoration: none; /*decoracion de texto desactivada */
+    /* border: 2px yellow solid; borde con ancho color estilo */
 }
 
 nav li{
