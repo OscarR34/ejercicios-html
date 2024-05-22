@@ -1,0 +1,38 @@
+/* selector universal - a todo margen cero y margen interna cero*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    text-align: center; /* alineacion de texto centrado */
+}
+
+nav{
+    /* color de fondo} */
+    background-color: cadetblue;
+    color: antiquewhite;
+    padding: 1.5em 0em; /* espacio interno arriba-abajo  derecha-izquierda */
+    /* margin:0px ; margen hacia afuera */
+    /* padding: 15px 20px;  margen hacia adrentro */
+}
+
+/* color de los enlaces dentro del nav */
+nav a{
+    color: aliceblue; /* color de la fuente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de fuente */
+    font-weight: bold;
+    text-decoration: none; /*decoracion de texto desactivada */
+}
+
+nav li{
+    /* border: 2px: red solid; */
+    /*width: 12%; porcentaje de ancho de li */
+    display: inline-block; /* alineacion horizontal */
+    margin: 0px 1em;
+}
+
+/* cuando el puntero del mouse este sobre el elemento */
+nav a:hover{
+    color: rgb(85, 226, 226);
+}
