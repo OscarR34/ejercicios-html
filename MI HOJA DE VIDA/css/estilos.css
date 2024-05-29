@@ -6,6 +6,7 @@
 
 body{
     text-align: center; /* alineacion de texto centrado */
+    background-image: url('../img/fondo_4.png');
 }
 
 nav{
@@ -36,4 +37,107 @@ nav li{
 /* cuando el puntero del mouse este sobre el elemento */
 nav a:hover{
     color: rgb(85, 226, 226);
+}
+
+header{
+    background-image: url('../img/fondo_4.png');
+    background-size: cover;
+    padding: 1em 1em;
+}
+
+/* selector de clase: se hace con .nombre_clase */
+.foto{
+    width: 25%;
+    border-radius: 50%; /* reordenar bordes */
+    border: 0.2em rgb(49, 47, 204) solid; /* borde grosor, color y estilo */
+}
+
+header h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 3cap rgb(49, 47, 204); /* sombra de texto */
+    margin-bottom: 0.5em;
+
+}
+
+#unico{
+    background-color: cadetblue;
+    padding: 0.3em 0.8em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* grosor de la fuente */
+    font-family: 'Courier New', Courier, monospace; /* tipo de fuente */
+}
+
+section{
+    width: 80%;
+    box-shadow: 0px 0px 10px 2px black;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 1em;
+    background-color: cadetblue;
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue;
+    border-bottom: 3px white;
+    margin: 1em 0em 1em 0em;
+    border-bottom: dashed white;
+}
+
+#perfil p{
+    margin-bottom: 1em;
+}
+
+.boton{
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 3px rgb(47, 47, 160) solid;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 3px rgb(47, 47, 160);
+    margin: 0em 1em;
+}
+
+.b-uno{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.b-dos{
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+
+
+.boton:hover{
+    background: white;
+    color: black;
+    box-shadow: none;
+}
+
+#estudios div{
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+img{
+    max-width: 100%;
+}
+
+#habilidades .col{
+    /*border: 2px red solid;*/
+    width: 32%;
+    display: inline-block;
+}
+.col div{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top; /* iniciar la aliniciaon vertical desde arriba */
+    text-align: left;
+    padding: 0.1em;
+}
+.logo{
+    width: 30%;
 }
