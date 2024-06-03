@@ -48,20 +48,36 @@ header h1{
 
 #hombres h2{
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section{
     width: 80%;
     border: 0.2em black solid;
     margin: 5em auto;
-    padding: 1em ;
+    padding: 0.5em ;
     background-color: aliceblue;
+
+}
+
+section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section h3{
+    margin: 0.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .col{
     width: 18%;
     border: 0.2em black solid;
-    margin: 5em auto;
+    margin: 1em auto;
     padding: 1em ;
     background-color: aliceblue;
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
 }
