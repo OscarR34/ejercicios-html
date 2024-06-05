@@ -141,3 +141,80 @@ img{
 .logo{
     width: 30%;
 }
+
+.texto{
+    /*border: 1px white solid;*/
+    padding: 3em 0em !important;
+}
+
+.grupo-proyecto, .videos-proyecto{
+    /*border: 1px green solid;*/
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto-proyecto, .img-proyecto{
+    /*border: 1px red solid;*/
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em;
+}
+
+.videos-proyecto{
+    margin-top: 3em;
+}
+
+#proyestos h3{
+    margin-bottom: 2em;
+}
+
+footer{
+    background-color: rgb(202, 202, 202);
+}
+
+footer .row{
+    width: 80%;
+    border: red solid 1px;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+}
+
+footer .col{
+    border: yellow solid 1px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 1em;
+}
+
+footer input, footer textarea{
+    border: 2px black solid;
+    width: 100%;
+    margin: 0.3em 0em;
+    padding: 0.4em;
+    border-radius: 0.9em;
+}
+
+.enviar{
+    width: 60%;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.enviar:hover{
+    background-color: darkblue;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+footer h3{
+    margin-top: 0.5em;
+}
+
+footer p{
+    margin-top: 0.4em;
+}
