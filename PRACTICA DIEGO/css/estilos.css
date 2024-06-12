@@ -180,36 +180,9 @@ footer{
     border: rgb(185, 53, 5) solid 0.2em;;
 }
 
-#final2 .img1{
-    border: blue solid 1px;
-    width: 40%;
-    padding-bottom: 0.5em;
-    vertical-align: top;
-    text-align: left;
-}
-
-#final2 .img3{
-    border: blue solid 1px;
-    width: 40%;
-    padding-bottom: 0.5em;
-    vertical-align: bottom;
-    text-align: left;
-}
-
-#final2 .img2{
-    border: blue solid 1px;
-    width: 40%;
-    padding-bottom: 0.5em;
-    vertical-align: top;
-    text-align: right;
-}
-
-#final2 .img4{
-    border: blue solid 1px;
-    width: 40%;
-    padding-bottom: 0.5em;
-    vertical-align: bottom;
-    text-align: right;
+.final_imgs{
+    border: yellow solid 1px;
+    width:40%;
 }
 
 footer p, footer h2{
