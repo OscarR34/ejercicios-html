@@ -15,6 +15,10 @@ body{
     color: rgb(243, 104, 12);
 }
 
+h1{
+    font-size: xx-large;
+}
+
 nav .img_user{
     width: 48%;
     padding: 0.5em;
@@ -72,7 +76,7 @@ header .col2{
     
 }
 
-header p, header h1{
+header p{
     margin-bottom: 0.7em;
     text-align: left;
     font-size: large;
@@ -160,6 +164,22 @@ footer{
     vertical-align: top;
 }
 
+#final2 button{
+    width: 25%;
+    background-color: rgb(243, 104, 12);
+    color: aliceblue;
+    border: rgb(141, 40, 4) solid 0.2em;
+    border-radius: 5em;
+    padding: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#final2 button:hover{
+    background-color: rgb(253, 147, 41);
+    color: black;
+    border: rgb(185, 53, 5) solid 0.2em;;
+}
+
 #final2 .img1{
     border: blue solid 1px;
     width: 40%;
@@ -186,7 +206,7 @@ footer{
 
 #final2 .img4{
     border: blue solid 1px;
-    width: 25%;
+    width: 40%;
     padding-bottom: 0.5em;
     vertical-align: bottom;
     text-align: right;
