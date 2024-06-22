@@ -10,12 +10,10 @@ header{
 
 header h1{
     color: rgb(0, 119, 255);
-    padding-left: 0.1em;
 }
 
 section{
     margin: 2em;
-    border: 1px blue solid;
 }
 
 .img1{
@@ -28,12 +26,13 @@ section{
 .texto{
     width: 71%;
     display: inline-block;
+    margin-left: 0.3em;
 }
 
 .texto h3{
-    margin-bottom: 0.8em;
     padding-left: 0.4em;
     padding-top: 1em;
+    margin-bottom: 0.8em;
 }
 
 .texto p{
@@ -57,26 +56,33 @@ button:hover{
 
 h2{
     color: rgb(0, 119, 255);
-    margin-bottom: 0.4em;
     font-size: xx-large;
+    padding-bottom: 0.5em;
 }
 
 .texto2{
-    padding: 0.2em;
-    margin-bottom: 1em;
+    padding: 2em;
+    margin-bottom: 0.3em;
 }
 
 .texto2 p{
     width: 60%;
 }
 
+#seccion2{
+    margin: 0em;
+    background-color: rgb(224, 224, 224);
+}
+
 .cubos{
-    width: 29.4%;
+    width: 22%;
     display: inline-block;
     vertical-align: top;
     box-shadow: 2px 3px 3px 2px rgb(85, 85, 85);
-    margin: 0.4em;
-    padding: 0.4em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em 1.5em 1em 1.5em;
+    background-color: aliceblue;
 }
 
 .cubos h3{
@@ -88,4 +94,34 @@ h2{
     font-size: xx-large;
     margin-bottom: 0.6em;
     color: rgb(51, 99, 187);
+}
+
+.divfinal{
+    text-align: center;
+}
+
+.circulos img{
+    max-width: 85%;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+.circulos{
+    width: 32.7%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.circulos button{
+    margin-top: 1em;
+    padding: 0.8em 1.8em;
+    border: rgb(51, 99, 187) solid 1px;
+    background-color: rgb(51, 99, 187);
+    color: aliceblue;
+}
+
+.circulos button:hover{
+    background-color: rgb(1, 1, 95);
+    border: 1px rgb(51, 99, 187) solid;
 }
