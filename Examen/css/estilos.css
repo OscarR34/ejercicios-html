@@ -9,7 +9,7 @@ header{
 }
 
 header h1{
-    color: rgb(0, 119, 255);
+    color: rgb(51, 99, 187);
 }
 
 section{
@@ -55,7 +55,7 @@ button:hover{
 }
 
 h2{
-    color: rgb(0, 119, 255);
+    color: rgb(51, 99, 187);
     font-size: xx-large;
     padding-bottom: 0.5em;
 }
@@ -82,7 +82,7 @@ h2{
     margin-left: 2em;
     margin-bottom: 2em;
     padding: 1.5em 1.5em 1em 1.5em;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .cubos h3{
